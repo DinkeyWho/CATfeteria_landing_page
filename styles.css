@@ -1,0 +1,183 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+h1, h4{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFB6B9;
+    color: white;
+    padding: 0 2em 0 2em;
+}
+
+
+
+.header-links{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.logo{
+    width: 35px;
+    height: 35px;
+}
+
+
+/* Main */
+.main{
+    background-color: #FAE3D9;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+}
+
+
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 10% 3em;
+    gap: 3em;
+    color: #555555;
+    padding: 5em 0 5em;
+    
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.main-img{
+    width: 70%;
+    border-radius: 3%;
+}
+
+
+
+/* Types of Cats */
+.cat-types{
+    background-color:#BBDED6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444343;
+    padding: 2em;
+}
+
+.types{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}    
+
+.types-img{
+    height: 220px;
+    width: 220px;
+    margin: 0 4vw;    
+    border-radius: 100%;
+}
+
+h4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.types-description{
+    max-width: 300px;
+}
+
+
+/* Reviews */
+.reviews{
+    background-color: #FAE3D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.reviews-comment{
+    width: 40%;
+    color:#555555;
+}
+
+.review-pic{
+    border-radius: 3%;
+    height: 80%;
+}
+
+/* Call to Action */
+.call-to-action{
+    background-color: #FFB6B9;
+    color: white;
+    padding: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.call-container{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #FFB6B9;
+    border-color: white;
+    border-radius: 8%;
+    border-width: 3px;
+    border-style: solid;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+button:hover{
+    cursor: pointer;
+}
